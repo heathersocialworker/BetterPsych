@@ -27,13 +27,3 @@ Feel free to explore my repositories, open issues, or start a discussion. I’m 
 ---
 
 *This README is a living document. I’d love to make it truly yours!*
-
----
-
-**To personalize your profile further, could you share:**
-- Your top 3 technical or professional skills?
-- Your favorite project(s) or achievement(s)?
-- Any social media or portfolio links to include?
-- Anything else you’d like highlighted (values, interests, fun facts)?
-
-*Just reply here, and I’ll update your profile README to showcase your unique story!*
