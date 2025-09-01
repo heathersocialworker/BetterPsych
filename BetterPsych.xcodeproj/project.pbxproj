@@ -1,0 +1,692 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		952110DE2E65101700890781 /* brand_mockup.png in Resources */ = {isa = PBXBuildFile; fileRef = 952110D02E65101700890781 /* brand_mockup.png */; };
+		952110DF2E65101700890781 /* splash.png in Resources */ = {isa = PBXBuildFile; fileRef = 952110D32E65101700890781 /* splash.png */; };
+		952110E02E65101700890781 /* topics.json in Resources */ = {isa = PBXBuildFile; fileRef = 952110CB2E65101700890781 /* topics.json */; };
+		952110E12E65101700890781 /* audiobooks.png in Resources */ = {isa = PBXBuildFile; fileRef = 952110CF2E65101700890781 /* audiobooks.png */; };
+		952110E22E65101700890781 /* people.png in Resources */ = {isa = PBXBuildFile; fileRef = 952110D22E65101700890781 /* people.png */; };
+		952110E32E65101700890781 /* lava_lamp.png in Resources */ = {isa = PBXBuildFile; fileRef = 952110C52E65101700890781 /* lava_lamp.png */; };
+		952110E42E65101700890781 /* courses.png in Resources */ = {isa = PBXBuildFile; fileRef = 952110D12E65101700890781 /* courses.png */; };
+		952110E52E65101700890781 /* textbooks.json in Resources */ = {isa = PBXBuildFile; fileRef = 952110CA2E65101700890781 /* textbooks.json */; };
+		952110E62E65101700890781 /* CONTRIBUTING.md in Resources */ = {isa = PBXBuildFile; fileRef = 952110CE2E65101700890781 /* CONTRIBUTING.md */; };
+		952110E72E65101700890781 /* textbooks.png in Resources */ = {isa = PBXBuildFile; fileRef = 952110D42E65101700890781 /* textbooks.png */; };
+		952110E82E65101700890781 /* PULL_REQUEST_TEMPLATE.md in Resources */ = {isa = PBXBuildFile; fileRef = 952110DB2E65101700890781 /* PULL_REQUEST_TEMPLATE.md */; };
+		952110E92E65101700890781 /* people.json in Resources */ = {isa = PBXBuildFile; fileRef = 952110C92E65101700890781 /* people.json */; };
+		952110EA2E65101700890781 /* courses.json in Resources */ = {isa = PBXBuildFile; fileRef = 952110C82E65101700890781 /* courses.json */; };
+		952110EB2E65101700890781 /* pubspec.yaml in Resources */ = {isa = PBXBuildFile; fileRef = 952110DA2E65101700890781 /* pubspec.yaml */; };
+		952110EC2E65101700890781 /* audiobooks.json in Resources */ = {isa = PBXBuildFile; fileRef = 952110C72E65101700890781 /* audiobooks.json */; };
+		952110ED2E65101700890781 /* ISSUE_TEMPLATE.md in Resources */ = {isa = PBXBuildFile; fileRef = 952110D62E65101700890781 /* ISSUE_TEMPLATE.md */; };
+		952110EE2E65101700890781 /* setup_betterpsych_mac.sh in Resources */ = {isa = PBXBuildFile; fileRef = 952110DD2E65101700890781 /* setup_betterpsych_mac.sh */; };
+		952110EF2E65101700890781 /* main.dart in Resources */ = {isa = PBXBuildFile; fileRef = 952110D72E65101700890781 /* main.dart */; };
+		952110F02E65101700890781 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 952110DC2E65101700890781 /* README.md */; };
+		952110F12E65101700890781 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = 952110D92E65101700890781 /* LICENSE */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		952110982E65099F00890781 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 952110802E65099D00890781 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 952110872E65099D00890781;
+			remoteInfo = BetterPsych;
+		};
+		952110A22E65099F00890781 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 952110802E65099D00890781 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 952110872E65099D00890781;
+			remoteInfo = BetterPsych;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		952110882E65099D00890781 /* BetterPsych.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BetterPsych.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		952110972E65099F00890781 /* BetterPsychTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BetterPsychTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		952110A12E65099F00890781 /* BetterPsychUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BetterPsychUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		952110C22E650FE600890781 /* BetterPsych.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; path = BetterPsych.xcodeproj; sourceTree = "<group>"; };
+		952110C52E65101700890781 /* lava_lamp.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = lava_lamp.png; sourceTree = "<group>"; };
+		952110C72E65101700890781 /* audiobooks.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = audiobooks.json; sourceTree = "<group>"; };
+		952110C82E65101700890781 /* courses.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = courses.json; sourceTree = "<group>"; };
+		952110C92E65101700890781 /* people.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = people.json; sourceTree = "<group>"; };
+		952110CA2E65101700890781 /* textbooks.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = textbooks.json; sourceTree = "<group>"; };
+		952110CB2E65101700890781 /* topics.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = topics.json; sourceTree = "<group>"; };
+		952110CE2E65101700890781 /* CONTRIBUTING.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = CONTRIBUTING.md; sourceTree = "<group>"; };
+		952110CF2E65101700890781 /* audiobooks.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = audiobooks.png; sourceTree = "<group>"; };
+		952110D02E65101700890781 /* brand_mockup.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = brand_mockup.png; sourceTree = "<group>"; };
+		952110D12E65101700890781 /* courses.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = courses.png; sourceTree = "<group>"; };
+		952110D22E65101700890781 /* people.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = people.png; sourceTree = "<group>"; };
+		952110D32E65101700890781 /* splash.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = splash.png; sourceTree = "<group>"; };
+		952110D42E65101700890781 /* textbooks.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = textbooks.png; sourceTree = "<group>"; };
+		952110D62E65101700890781 /* ISSUE_TEMPLATE.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = ISSUE_TEMPLATE.md; sourceTree = "<group>"; };
+		952110D72E65101700890781 /* main.dart */ = {isa = PBXFileReference; lastKnownFileType = text; path = main.dart; sourceTree = "<group>"; };
+		952110D92E65101700890781 /* LICENSE */ = {isa = PBXFileReference; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		952110DA2E65101700890781 /* pubspec.yaml */ = {isa = PBXFileReference; lastKnownFileType = text.yaml; path = pubspec.yaml; sourceTree = "<group>"; };
+		952110DB2E65101700890781 /* PULL_REQUEST_TEMPLATE.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = PULL_REQUEST_TEMPLATE.md; sourceTree = "<group>"; };
+		952110DC2E65101700890781 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		952110DD2E65101700890781 /* setup_betterpsych_mac.sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = setup_betterpsych_mac.sh; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		9521108A2E65099D00890781 /* BetterPsych */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = BetterPsych;
+			sourceTree = "<group>";
+		};
+		9521109A2E65099F00890781 /* BetterPsychTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = BetterPsychTests;
+			sourceTree = "<group>";
+		};
+		952110A42E65099F00890781 /* BetterPsychUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			name = BetterPsychUITests;
+			path = /Users/heathersocialworker/Desktop/BetterPsych/BetterPsych/BetterPsychUITests;
+			sourceTree = "<absolute>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		952110852E65099D00890781 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		952110942E65099F00890781 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9521109E2E65099F00890781 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9521107F2E65099D00890781 = {
+			isa = PBXGroup;
+			children = (
+				952110CD2E65101700890781 /* assets */,
+				952110CE2E65101700890781 /* CONTRIBUTING.md */,
+				952110D52E65101700890781 /* docs */,
+				952110D62E65101700890781 /* ISSUE_TEMPLATE.md */,
+				952110D82E65101700890781 /* lib */,
+				952110D92E65101700890781 /* LICENSE */,
+				952110DA2E65101700890781 /* pubspec.yaml */,
+				952110DB2E65101700890781 /* PULL_REQUEST_TEMPLATE.md */,
+				952110DC2E65101700890781 /* README.md */,
+				952110DD2E65101700890781 /* setup_betterpsych_mac.sh */,
+				952110C22E650FE600890781 /* BetterPsych.xcodeproj */,
+				9521108A2E65099D00890781 /* BetterPsych */,
+				9521109A2E65099F00890781 /* BetterPsychTests */,
+				952110A42E65099F00890781 /* BetterPsychUITests */,
+				952110892E65099D00890781 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		952110892E65099D00890781 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				952110882E65099D00890781 /* BetterPsych.app */,
+				952110972E65099F00890781 /* BetterPsychTests.xctest */,
+				952110A12E65099F00890781 /* BetterPsychUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		952110C32E650FE600890781 /* Products */ = {
+			isa = PBXGroup;
+			name = Products;
+			sourceTree = "<group>";
+		};
+		952110C62E65101700890781 /* branding */ = {
+			isa = PBXGroup;
+			children = (
+				952110C52E65101700890781 /* lava_lamp.png */,
+			);
+			path = branding;
+			sourceTree = "<group>";
+		};
+		952110CC2E65101700890781 /* data */ = {
+			isa = PBXGroup;
+			children = (
+				952110C72E65101700890781 /* audiobooks.json */,
+				952110C82E65101700890781 /* courses.json */,
+				952110C92E65101700890781 /* people.json */,
+				952110CA2E65101700890781 /* textbooks.json */,
+				952110CB2E65101700890781 /* topics.json */,
+			);
+			path = data;
+			sourceTree = "<group>";
+		};
+		952110CD2E65101700890781 /* assets */ = {
+			isa = PBXGroup;
+			children = (
+				952110C62E65101700890781 /* branding */,
+				952110CC2E65101700890781 /* data */,
+			);
+			path = assets;
+			sourceTree = "<group>";
+		};
+		952110D52E65101700890781 /* docs */ = {
+			isa = PBXGroup;
+			children = (
+				952110CF2E65101700890781 /* audiobooks.png */,
+				952110D02E65101700890781 /* brand_mockup.png */,
+				952110D12E65101700890781 /* courses.png */,
+				952110D22E65101700890781 /* people.png */,
+				952110D32E65101700890781 /* splash.png */,
+				952110D42E65101700890781 /* textbooks.png */,
+			);
+			path = docs;
+			sourceTree = "<group>";
+		};
+		952110D82E65101700890781 /* lib */ = {
+			isa = PBXGroup;
+			children = (
+				952110D72E65101700890781 /* main.dart */,
+			);
+			path = lib;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		952110872E65099D00890781 /* BetterPsych */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 952110AB2E65099F00890781 /* Build configuration list for PBXNativeTarget "BetterPsych" */;
+			buildPhases = (
+				952110842E65099D00890781 /* Sources */,
+				952110852E65099D00890781 /* Frameworks */,
+				952110862E65099D00890781 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				9521108A2E65099D00890781 /* BetterPsych */,
+			);
+			name = BetterPsych;
+			packageProductDependencies = (
+			);
+			productName = BetterPsych;
+			productReference = 952110882E65099D00890781 /* BetterPsych.app */;
+			productType = "com.apple.product-type.application";
+		};
+		952110962E65099F00890781 /* BetterPsychTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 952110AE2E65099F00890781 /* Build configuration list for PBXNativeTarget "BetterPsychTests" */;
+			buildPhases = (
+				952110932E65099F00890781 /* Sources */,
+				952110942E65099F00890781 /* Frameworks */,
+				952110952E65099F00890781 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				952110992E65099F00890781 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				9521109A2E65099F00890781 /* BetterPsychTests */,
+			);
+			name = BetterPsychTests;
+			packageProductDependencies = (
+			);
+			productName = BetterPsychTests;
+			productReference = 952110972E65099F00890781 /* BetterPsychTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		952110A02E65099F00890781 /* BetterPsychUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 952110B12E65099F00890781 /* Build configuration list for PBXNativeTarget "BetterPsychUITests" */;
+			buildPhases = (
+				9521109D2E65099F00890781 /* Sources */,
+				9521109E2E65099F00890781 /* Frameworks */,
+				9521109F2E65099F00890781 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				952110A32E65099F00890781 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				952110A42E65099F00890781 /* BetterPsychUITests */,
+			);
+			name = BetterPsychUITests;
+			packageProductDependencies = (
+			);
+			productName = BetterPsychUITests;
+			productReference = 952110A12E65099F00890781 /* BetterPsychUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		952110802E65099D00890781 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1640;
+				LastUpgradeCheck = 1640;
+				TargetAttributes = {
+					952110872E65099D00890781 = {
+						CreatedOnToolsVersion = 16.4;
+					};
+					952110962E65099F00890781 = {
+						CreatedOnToolsVersion = 16.4;
+						TestTargetID = 952110872E65099D00890781;
+					};
+					952110A02E65099F00890781 = {
+						CreatedOnToolsVersion = 16.4;
+						TestTargetID = 952110872E65099D00890781;
+					};
+				};
+			};
+			buildConfigurationList = 952110832E65099D00890781 /* Build configuration list for PBXProject "BetterPsych" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9521107F2E65099D00890781;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 952110892E65099D00890781 /* Products */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 952110C32E650FE600890781 /* Products */;
+					ProjectRef = 952110C22E650FE600890781 /* BetterPsych.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				952110872E65099D00890781 /* BetterPsych */,
+				952110962E65099F00890781 /* BetterPsychTests */,
+				952110A02E65099F00890781 /* BetterPsychUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		952110862E65099D00890781 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				952110DE2E65101700890781 /* brand_mockup.png in Resources */,
+				952110DF2E65101700890781 /* splash.png in Resources */,
+				952110E02E65101700890781 /* topics.json in Resources */,
+				952110E12E65101700890781 /* audiobooks.png in Resources */,
+				952110E22E65101700890781 /* people.png in Resources */,
+				952110E32E65101700890781 /* lava_lamp.png in Resources */,
+				952110E42E65101700890781 /* courses.png in Resources */,
+				952110E52E65101700890781 /* textbooks.json in Resources */,
+				952110E62E65101700890781 /* CONTRIBUTING.md in Resources */,
+				952110E72E65101700890781 /* textbooks.png in Resources */,
+				952110E82E65101700890781 /* PULL_REQUEST_TEMPLATE.md in Resources */,
+				952110E92E65101700890781 /* people.json in Resources */,
+				952110EA2E65101700890781 /* courses.json in Resources */,
+				952110EB2E65101700890781 /* pubspec.yaml in Resources */,
+				952110EC2E65101700890781 /* audiobooks.json in Resources */,
+				952110ED2E65101700890781 /* ISSUE_TEMPLATE.md in Resources */,
+				952110EE2E65101700890781 /* setup_betterpsych_mac.sh in Resources */,
+				952110EF2E65101700890781 /* main.dart in Resources */,
+				952110F02E65101700890781 /* README.md in Resources */,
+				952110F12E65101700890781 /* LICENSE in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		952110952E65099F00890781 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9521109F2E65099F00890781 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		952110842E65099D00890781 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		952110932E65099F00890781 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9521109D2E65099F00890781 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		952110992E65099F00890781 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 952110872E65099D00890781 /* BetterPsych */;
+			targetProxy = 952110982E65099F00890781 /* PBXContainerItemProxy */;
+		};
+		952110A32E65099F00890781 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 952110872E65099D00890781 /* BetterPsych */;
+			targetProxy = 952110A22E65099F00890781 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		952110A92E65099F00890781 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		952110AA2E65099F00890781 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		952110AC2E65099F00890781 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = BetterEDU.BetterPsych;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		952110AD2E65099F00890781 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = BetterEDU.BetterPsych;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		952110AF2E65099F00890781 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = BetterEDU.BetterPsychTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BetterPsych.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/BetterPsych";
+			};
+			name = Debug;
+		};
+		952110B02E65099F00890781 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = BetterEDU.BetterPsychTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BetterPsych.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/BetterPsych";
+			};
+			name = Release;
+		};
+		952110B22E65099F00890781 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = BetterEDU.BetterPsychUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = BetterPsych;
+			};
+			name = Debug;
+		};
+		952110B32E65099F00890781 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = BetterEDU.BetterPsychUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = BetterPsych;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		952110832E65099D00890781 /* Build configuration list for PBXProject "BetterPsych" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				952110A92E65099F00890781 /* Debug */,
+				952110AA2E65099F00890781 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		952110AB2E65099F00890781 /* Build configuration list for PBXNativeTarget "BetterPsych" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				952110AC2E65099F00890781 /* Debug */,
+				952110AD2E65099F00890781 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		952110AE2E65099F00890781 /* Build configuration list for PBXNativeTarget "BetterPsychTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				952110AF2E65099F00890781 /* Debug */,
+				952110B02E65099F00890781 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		952110B12E65099F00890781 /* Build configuration list for PBXNativeTarget "BetterPsychUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				952110B22E65099F00890781 /* Debug */,
+				952110B32E65099F00890781 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 952110802E65099D00890781 /* Project object */;
+}
